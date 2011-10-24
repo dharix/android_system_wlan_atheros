@@ -75,7 +75,7 @@
  * 0 - CUT_POWER
  * 1 - DEEP_SLEEP (Default)
  */
-#define WLAN_CONFIG_WLAN_OFF                0
+#define WLAN_CONFIG_WLAN_OFF                1
 
 /*
  * This configuration item disables 11n support. 
@@ -101,7 +101,7 @@
  * 2 - WoW
  * 3 - CUT_POWER if BT OFF (clock sharing designs only)
  */
-#define WLAN_CONFIG_PM_WOW2                 0
+#define WLAN_CONFIG_PM_WOW2                 1
 
 /* 
  * Define GPIO number for WoW in your platform other than zero 
